@@ -15,10 +15,10 @@
                     <div class="img-container flex justify-center">
                         <img src="logo-japan-foundation.jpg" width="250" height="250" alt="">
                     </div>
-                    <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">ANALYZE YOUR TRY OUT JLPT</h2>
+                    <h2 class="mb-4 text-xl font-bold text-white">ANALYZE YOUR TRY OUT JLPT</h2>
                     <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
                         <div class="sm:col-span-2">
-                            <label for="category" class="block mb-2 text-sm font-bold text-gray-900 dark:text-white">(日本語能力試験レベル) JLPT Level :</label>
+                            <label for="category" class="block mb-2 text-sm font-bold text-white">(日本語能力試験レベル) JLPT Level :</label>
                             <select id="category" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                 <option selected="">Select JLPT Level</option>
                                 <option value="N2">N2</option>
@@ -28,16 +28,16 @@
                             </select>
                         </div>
                         <div class="w-full">
-                            <label for="Vocalbullary" class="block mb-2 text-sm font-bold text-gray-900 dark:text-white">(漢字.文字語彙.文法) Vocalbularry Score :</label>
-                            <input type="number" name="Vocalbullary" id="Vocalbullary" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="1/60" required="">
+                            <label for="Vocalbullary" class="block mb-2 text-sm font-bold text-white">(漢字.文字語彙.文法) Vocalbularry Score :</label>
+                            <input type="number" name="Vocalbullary" id="Vocalbullary" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="10/60" required="">
                         </div>
                         <div class="w-full">
-                            <label for="Reading" class="block mb-2 text-sm font-bold text-gray-900 dark:text-white">(読解) Reading Score : </label>
-                            <input type="number" name="Reading" id="Reading" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="1/60" required="">
+                            <label for="Reading" class="block mb-2 text-sm font-bold text-white">(読解) Reading Score : </label>
+                            <input type="number" name="Reading" id="Reading" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="10/60" required="">
                         </div>
                         <div class="w-full">
-                            <label for="Listening" class="block mb-2 text-sm font-bold text-gray-900 dark:text-white">(聴解) Listening Score : </label>
-                            <input type="number" name="Listening" id="Listening" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="1/60" required="">
+                            <label for="Listening" class="block mb-2 text-sm font-bold text-white">(聴解) Listening Score : </label>
+                            <input type="number" name="Listening" id="Listening" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="10/60" required="">
                         </div>
                     </div>
                     <button type="submit" id="submit-analyze" class="text-white mt-4 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
@@ -51,7 +51,7 @@
          <div style="box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3);" class="overflow-x-auto relative shadow-md sm:rounded-lg">
             <h1 style="margin: 2rem 0;" class="text-black font-bold text-center text-lg">YOUR ANALYZE ✨✨✨ </h1>
             <p style="margin: 2rem 2rem;" id="outputText" class="text-black text-lg text-justify"></p>
-
+            
          </div>
         </div>
         <style>
