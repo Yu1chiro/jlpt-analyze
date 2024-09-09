@@ -1,1 +1,0 @@
-        const API_KEY = 'AIzaSyCbENma_1hhoo4cp1ptCP4DmXapdXzwXzQ'; // Replace with your actual API key
