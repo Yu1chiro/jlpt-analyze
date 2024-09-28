@@ -1,5 +1,20 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.10"
-  }
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "name": "jlpt-score-analyzing",
+  "version": "1.0.0",
+  "main": "exprs.js",
+  "type":"module",
+  "scripts": {
+    "start": "node exprs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

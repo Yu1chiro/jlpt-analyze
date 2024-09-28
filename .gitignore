@@ -1,1 +1,3 @@
 /mainonly.js
+/node_modules
+.env

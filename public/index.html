@@ -13,8 +13,9 @@
         <div class="overflow-x-auto relative shadow-md sm:rounded-lg bg-gray-900">
             <form style="margin: 2rem 2rem ;" id="analyze-score">
                     <div class="img-container flex justify-center">
-                        <img src="logo-japan-foundation.jpg" width="250" height="250" alt="">
+                        <img src="logo-japan-foundation.jpg" width="250" class="mb-4 lg:m-0 xl:m-2" height="250" alt="">
                     </div>
+                    <p class="text-white text-center mb-5 lg:m-0 xl:m-0">&copy; Yuii || 2024 </p>
                     <h2 class="mb-4 text-xl font-bold text-white">ANALYZE YOUR JLPT TRYOUT</h2>
                     <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
                         <div class="sm:col-span-2">
@@ -51,7 +52,14 @@
          <div style="box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3);" class="overflow-x-auto relative shadow-md sm:rounded-lg">
             <h1 style="margin: 2rem 0;" class="text-black font-bold text-center text-lg">YOUR ANALYSIS RESULTS✨✨</h1>
             <p style="margin: 2rem 2rem;" id="outputText" class="text-black text-lg text-left leading-normal tracking-normal"></p>
-            
+            <p style="margin: 2rem 2rem ;" class="text-black text-lg text-left leading-normal tracking-normal">
+             Berikut terdapat beberapa platform latihan rekomendasi Try Out Free JLPT yg menyediakan soal-soal intesif : 
+             <br>
+             <a href="https://japanvitta.com/" class="text-lg text-blue-600 font-bold">Japanvitta</a>
+             <br>
+             <a href="https://easyjapanese.net/" class="text-lg text-blue-600 font-bold">Easy Japanese Todai</a>
+            </p>
+            <p style="margin: 2rem 2rem ;" class="text-black font-bold text-lg text-left leading-normal tracking-normal">TETAP SEMANGAT DAN SEMOGA BERHASIL PADA UJIAN NANTI</p>
          </div>
         </div>
         <style>
@@ -64,16 +72,25 @@
         input[type=number] {
             -moz-appearance: textfield;
         }
+        .footer-mbl {
+            display: none;
+        }
 
             @media screen and (max-width: 640px) {
                 .img-container {
                     margin-bottom: 1rem;
+                }
+                .footer {
+                    display: none;
+                }
+                .footer-mbl {
+                    display: block;
                 }
             }
         </style>
 <!-- script -->
 <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="main.js"></script>
+<script type="module" src="main.js"></script>
 </body>
 </html>
